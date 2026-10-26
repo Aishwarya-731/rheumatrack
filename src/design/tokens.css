@@ -1,0 +1,136 @@
+/*
+ * RheumaTrack design tokens.
+ * Dark theme follows the charcoal + teal clinical dashboard reference; the light theme keeps
+ * the same structure and accent with soft white surfaces. Every colour used anywhere in the
+ * app (CSS, charts, 3D viewer) comes from these variables.
+ */
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --fs-xs: 0.8125rem; /* 13px — only for chart ticks and badges */
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  --touch: 44px;
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 76px;
+  --topbar-h: 68px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur: 180ms;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #090b0b;
+  --bg-elevated: #0e1111;
+  --surface: #131716;
+  --surface-2: #191e1d;
+  --surface-3: #212726;
+  --surface-hover: #1e2423;
+  --border: #252c2b;
+  --border-strong: #343d3b;
+  --text: #edf2f1;
+  --text-muted: #a3aeac;
+  --text-subtle: #75817f;
+  --accent: #2dd4bf;
+  --accent-strong: #5eead4;
+  --accent-soft: rgba(45, 212, 191, 0.12);
+  --accent-contrast: #032a25;
+  --success: #4ade80;
+  --success-soft: rgba(74, 222, 128, 0.12);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.13);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.13);
+  --info: #60a5fa;
+  --info-soft: rgba(96, 165, 250, 0.13);
+  --violet: #a78bfa;
+  --violet-soft: rgba(167, 139, 250, 0.14);
+  --focus: #5eead4;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --overlay: rgba(3, 5, 5, 0.66);
+  --chart-1: #2dd4bf;
+  --chart-2: #a78bfa;
+  --chart-3: #fbbf24;
+  --chart-4: #60a5fa;
+  --chart-5: #f472b6;
+  --chart-grid: #222927;
+  --chart-axis: #7d8987;
+  --skeleton-a: #191e1d;
+  --skeleton-b: #232a29;
+  /* 3D viewer */
+  --viewer-bg: #0d1110;
+  --viewer-floor: #141918;
+  --viewer-body: #c9d2d0;
+  --viewer-joint: #7d8a88;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #eef2f3;
+  --bg-elevated: #f6f8f9;
+  --surface: #ffffff;
+  --surface-2: #f5f7f8;
+  --surface-3: #ebeff1;
+  --surface-hover: #f1f4f5;
+  --border: #dfe5e7;
+  --border-strong: #c9d2d5;
+  --text: #0f1b1d;
+  --text-muted: #4f5f63;
+  --text-subtle: #6b7a7e;
+  --accent: #0d9488;
+  --accent-strong: #0f766e;
+  --accent-soft: rgba(13, 148, 136, 0.1);
+  --accent-contrast: #ffffff;
+  --success: #15803d;
+  --success-soft: rgba(21, 128, 61, 0.1);
+  --warning: #b45309;
+  --warning-soft: rgba(180, 83, 9, 0.1);
+  --danger: #dc2626;
+  --danger-soft: rgba(220, 38, 38, 0.09);
+  --info: #2563eb;
+  --info-soft: rgba(37, 99, 235, 0.09);
+  --violet: #7c3aed;
+  --violet-soft: rgba(124, 58, 237, 0.09);
+  --focus: #0d9488;
+  --shadow-sm: 0 1px 2px rgba(15, 27, 29, 0.06);
+  --shadow-md: 0 8px 24px rgba(15, 27, 29, 0.08);
+  --shadow-lg: 0 24px 60px rgba(15, 27, 29, 0.16);
+  --overlay: rgba(15, 27, 29, 0.42);
+  --chart-1: #0d9488;
+  --chart-2: #7c3aed;
+  --chart-3: #d97706;
+  --chart-4: #2563eb;
+  --chart-5: #db2777;
+  --chart-grid: #e6ebed;
+  --chart-axis: #6b7a7e;
+  --skeleton-a: #eef2f3;
+  --skeleton-b: #e2e8ea;
+  --viewer-bg: #f3f6f7;
+  --viewer-floor: #e5ebec;
+  --viewer-body: #f7f9f9;
+  --viewer-joint: #9aa7aa;
+}

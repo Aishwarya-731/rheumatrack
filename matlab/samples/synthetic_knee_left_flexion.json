@@ -1,0 +1,4025 @@
+{
+  "format": "rheumatrack.movement.v1",
+  "joint": "knee",
+  "side": "left",
+  "movement": "flexion",
+  "unit": "deg",
+  "source": "simulation",
+  "samples": [
+    {
+      "timestamp": "2026-10-26T04:30:00.000Z",
+      "angleDeg": 4.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.020Z",
+      "angleDeg": 3.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.040Z",
+      "angleDeg": 5.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.060Z",
+      "angleDeg": 3.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.080Z",
+      "angleDeg": 6.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.100Z",
+      "angleDeg": 6.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.120Z",
+      "angleDeg": 3.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.140Z",
+      "angleDeg": 6.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.160Z",
+      "angleDeg": 4.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.180Z",
+      "angleDeg": 6.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.200Z",
+      "angleDeg": 6.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.220Z",
+      "angleDeg": 7.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.240Z",
+      "angleDeg": 6.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.260Z",
+      "angleDeg": 8.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.280Z",
+      "angleDeg": 11.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.300Z",
+      "angleDeg": 10.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.320Z",
+      "angleDeg": 10.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.340Z",
+      "angleDeg": 11.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.360Z",
+      "angleDeg": 12.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.380Z",
+      "angleDeg": 13.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.400Z",
+      "angleDeg": 15.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.420Z",
+      "angleDeg": 15.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.440Z",
+      "angleDeg": 17.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.460Z",
+      "angleDeg": 18.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.480Z",
+      "angleDeg": 19.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.500Z",
+      "angleDeg": 19.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.520Z",
+      "angleDeg": 22.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.540Z",
+      "angleDeg": 24.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.560Z",
+      "angleDeg": 22.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.580Z",
+      "angleDeg": 24.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.600Z",
+      "angleDeg": 27.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.620Z",
+      "angleDeg": 27.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.640Z",
+      "angleDeg": 30.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.660Z",
+      "angleDeg": 30.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.680Z",
+      "angleDeg": 33.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.700Z",
+      "angleDeg": 33.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.720Z",
+      "angleDeg": 36.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.740Z",
+      "angleDeg": 38.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.760Z",
+      "angleDeg": 38.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.780Z",
+      "angleDeg": 40.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.800Z",
+      "angleDeg": 45.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.820Z",
+      "angleDeg": 46.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.840Z",
+      "angleDeg": 47.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.860Z",
+      "angleDeg": 48.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.880Z",
+      "angleDeg": 50.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.900Z",
+      "angleDeg": 53.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.920Z",
+      "angleDeg": 55.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.940Z",
+      "angleDeg": 58.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.960Z",
+      "angleDeg": 57.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:00.980Z",
+      "angleDeg": 58.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.000Z",
+      "angleDeg": 61.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.020Z",
+      "angleDeg": 65.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.040Z",
+      "angleDeg": 62.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.060Z",
+      "angleDeg": 67.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.080Z",
+      "angleDeg": 68.42
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.100Z",
+      "angleDeg": 70.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.120Z",
+      "angleDeg": 71.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.140Z",
+      "angleDeg": 76.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.160Z",
+      "angleDeg": 76.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.180Z",
+      "angleDeg": 77.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.200Z",
+      "angleDeg": 78.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.220Z",
+      "angleDeg": 81.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.240Z",
+      "angleDeg": 83.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.260Z",
+      "angleDeg": 85.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.280Z",
+      "angleDeg": 88.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.300Z",
+      "angleDeg": 86.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.320Z",
+      "angleDeg": 90.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.340Z",
+      "angleDeg": 90.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.360Z",
+      "angleDeg": 92.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.380Z",
+      "angleDeg": 94.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.400Z",
+      "angleDeg": 95.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.420Z",
+      "angleDeg": 96.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.440Z",
+      "angleDeg": 98.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.460Z",
+      "angleDeg": 100.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.480Z",
+      "angleDeg": 103.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.500Z",
+      "angleDeg": 101.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.520Z",
+      "angleDeg": 103.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.540Z",
+      "angleDeg": 105.12
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.560Z",
+      "angleDeg": 106.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.580Z",
+      "angleDeg": 107.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.600Z",
+      "angleDeg": 108.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.620Z",
+      "angleDeg": 108.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.640Z",
+      "angleDeg": 111.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.660Z",
+      "angleDeg": 111.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.680Z",
+      "angleDeg": 112.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.700Z",
+      "angleDeg": 112.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.720Z",
+      "angleDeg": 113.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.740Z",
+      "angleDeg": 111.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.760Z",
+      "angleDeg": 115.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.780Z",
+      "angleDeg": 116.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.800Z",
+      "angleDeg": 116.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.820Z",
+      "angleDeg": 114.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.840Z",
+      "angleDeg": 115.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.860Z",
+      "angleDeg": 119.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.880Z",
+      "angleDeg": 118.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.900Z",
+      "angleDeg": 120.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.920Z",
+      "angleDeg": 118.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.940Z",
+      "angleDeg": 120.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.960Z",
+      "angleDeg": 120.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:01.980Z",
+      "angleDeg": 119.06
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.000Z",
+      "angleDeg": 120.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.020Z",
+      "angleDeg": 120.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.040Z",
+      "angleDeg": 117.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.060Z",
+      "angleDeg": 118.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.080Z",
+      "angleDeg": 117.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.100Z",
+      "angleDeg": 116.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.120Z",
+      "angleDeg": 117.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.140Z",
+      "angleDeg": 116.81
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.160Z",
+      "angleDeg": 116.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.180Z",
+      "angleDeg": 116.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.200Z",
+      "angleDeg": 116.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.220Z",
+      "angleDeg": 116.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.240Z",
+      "angleDeg": 114.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.260Z",
+      "angleDeg": 112.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.280Z",
+      "angleDeg": 113.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.300Z",
+      "angleDeg": 113.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.320Z",
+      "angleDeg": 110.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.340Z",
+      "angleDeg": 110.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.360Z",
+      "angleDeg": 110.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.380Z",
+      "angleDeg": 110.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.400Z",
+      "angleDeg": 106.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.420Z",
+      "angleDeg": 107.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.440Z",
+      "angleDeg": 104.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.460Z",
+      "angleDeg": 105.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.480Z",
+      "angleDeg": 103.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.500Z",
+      "angleDeg": 103.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.520Z",
+      "angleDeg": 99.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.540Z",
+      "angleDeg": 99.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.560Z",
+      "angleDeg": 96.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.580Z",
+      "angleDeg": 95.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.600Z",
+      "angleDeg": 96.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.620Z",
+      "angleDeg": 93.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.640Z",
+      "angleDeg": 92.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.660Z",
+      "angleDeg": 89.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.680Z",
+      "angleDeg": 89.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.700Z",
+      "angleDeg": 89.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.720Z",
+      "angleDeg": 87.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.740Z",
+      "angleDeg": 83.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.760Z",
+      "angleDeg": 82.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.780Z",
+      "angleDeg": 80.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.800Z",
+      "angleDeg": 81.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.820Z",
+      "angleDeg": 77.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.840Z",
+      "angleDeg": 75.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.860Z",
+      "angleDeg": 73.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.880Z",
+      "angleDeg": 73.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.900Z",
+      "angleDeg": 69.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.920Z",
+      "angleDeg": 67.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.940Z",
+      "angleDeg": 66.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.960Z",
+      "angleDeg": 64.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:02.980Z",
+      "angleDeg": 64.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.000Z",
+      "angleDeg": 61.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.020Z",
+      "angleDeg": 60.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.040Z",
+      "angleDeg": 57.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.060Z",
+      "angleDeg": 57.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.080Z",
+      "angleDeg": 54.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.100Z",
+      "angleDeg": 53.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.120Z",
+      "angleDeg": 51.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.140Z",
+      "angleDeg": 49.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.160Z",
+      "angleDeg": 45.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.180Z",
+      "angleDeg": 44.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.200Z",
+      "angleDeg": 41.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.220Z",
+      "angleDeg": 40.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.240Z",
+      "angleDeg": 39.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.260Z",
+      "angleDeg": 37.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.280Z",
+      "angleDeg": 36.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.300Z",
+      "angleDeg": 34.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.320Z",
+      "angleDeg": 33.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.340Z",
+      "angleDeg": 31.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.360Z",
+      "angleDeg": 28.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.380Z",
+      "angleDeg": 26.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.400Z",
+      "angleDeg": 27.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.420Z",
+      "angleDeg": 26.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.440Z",
+      "angleDeg": 23.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.460Z",
+      "angleDeg": 23.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.480Z",
+      "angleDeg": 22.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.500Z",
+      "angleDeg": 19.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.520Z",
+      "angleDeg": 19.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.540Z",
+      "angleDeg": 19.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.560Z",
+      "angleDeg": 16.37
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.580Z",
+      "angleDeg": 15.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.600Z",
+      "angleDeg": 14.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.620Z",
+      "angleDeg": 14.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.640Z",
+      "angleDeg": 14.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.660Z",
+      "angleDeg": 11.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.680Z",
+      "angleDeg": 10.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.700Z",
+      "angleDeg": 10.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.720Z",
+      "angleDeg": 11.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.740Z",
+      "angleDeg": 6.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.760Z",
+      "angleDeg": 5.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.780Z",
+      "angleDeg": 6.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.800Z",
+      "angleDeg": 6.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.820Z",
+      "angleDeg": 4.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.840Z",
+      "angleDeg": 3.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.860Z",
+      "angleDeg": 4.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.880Z",
+      "angleDeg": 5.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.900Z",
+      "angleDeg": 5.02
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.920Z",
+      "angleDeg": 6.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.940Z",
+      "angleDeg": 4.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.960Z",
+      "angleDeg": 5.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:03.980Z",
+      "angleDeg": 4.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.000Z",
+      "angleDeg": 3.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.020Z",
+      "angleDeg": 4.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.040Z",
+      "angleDeg": 3.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.060Z",
+      "angleDeg": 4.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.080Z",
+      "angleDeg": 5.53
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.100Z",
+      "angleDeg": 4.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.120Z",
+      "angleDeg": 4.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.140Z",
+      "angleDeg": 4.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.160Z",
+      "angleDeg": 4.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.180Z",
+      "angleDeg": 4.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.200Z",
+      "angleDeg": 4.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.220Z",
+      "angleDeg": 8.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.240Z",
+      "angleDeg": 8.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.260Z",
+      "angleDeg": 8.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.280Z",
+      "angleDeg": 11.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.300Z",
+      "angleDeg": 10.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.320Z",
+      "angleDeg": 12.3
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.340Z",
+      "angleDeg": 11.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.360Z",
+      "angleDeg": 11.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.380Z",
+      "angleDeg": 13.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.400Z",
+      "angleDeg": 15.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.420Z",
+      "angleDeg": 16.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.440Z",
+      "angleDeg": 14.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.460Z",
+      "angleDeg": 17.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.480Z",
+      "angleDeg": 19.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.500Z",
+      "angleDeg": 21.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.520Z",
+      "angleDeg": 20.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.540Z",
+      "angleDeg": 21.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.560Z",
+      "angleDeg": 27.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.580Z",
+      "angleDeg": 26.61
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.600Z",
+      "angleDeg": 27.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.620Z",
+      "angleDeg": 27.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.640Z",
+      "angleDeg": 30.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.660Z",
+      "angleDeg": 33.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.680Z",
+      "angleDeg": 36.37
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.700Z",
+      "angleDeg": 35.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.720Z",
+      "angleDeg": 36.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.740Z",
+      "angleDeg": 39.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.760Z",
+      "angleDeg": 39.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.780Z",
+      "angleDeg": 42.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.800Z",
+      "angleDeg": 43.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.820Z",
+      "angleDeg": 43.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.840Z",
+      "angleDeg": 47.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.860Z",
+      "angleDeg": 48.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.880Z",
+      "angleDeg": 48.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.900Z",
+      "angleDeg": 52.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.920Z",
+      "angleDeg": 54.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.940Z",
+      "angleDeg": 56.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.960Z",
+      "angleDeg": 57.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:04.980Z",
+      "angleDeg": 60.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.000Z",
+      "angleDeg": 62.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.020Z",
+      "angleDeg": 64.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.040Z",
+      "angleDeg": 64.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.060Z",
+      "angleDeg": 64.06
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.080Z",
+      "angleDeg": 69.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.100Z",
+      "angleDeg": 72.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.120Z",
+      "angleDeg": 72.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.140Z",
+      "angleDeg": 72.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.160Z",
+      "angleDeg": 74.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.180Z",
+      "angleDeg": 79.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.200Z",
+      "angleDeg": 79.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.220Z",
+      "angleDeg": 80.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.240Z",
+      "angleDeg": 80.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.260Z",
+      "angleDeg": 84.12
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.280Z",
+      "angleDeg": 86.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.300Z",
+      "angleDeg": 86.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.320Z",
+      "angleDeg": 89.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.340Z",
+      "angleDeg": 91.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.360Z",
+      "angleDeg": 91.4
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.380Z",
+      "angleDeg": 93.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.400Z",
+      "angleDeg": 96.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.420Z",
+      "angleDeg": 95.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.440Z",
+      "angleDeg": 98.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.460Z",
+      "angleDeg": 99.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.480Z",
+      "angleDeg": 99.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.500Z",
+      "angleDeg": 101.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.520Z",
+      "angleDeg": 102.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.540Z",
+      "angleDeg": 106
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.560Z",
+      "angleDeg": 107.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.580Z",
+      "angleDeg": 106.61
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.600Z",
+      "angleDeg": 108.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.620Z",
+      "angleDeg": 110.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.640Z",
+      "angleDeg": 110.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.660Z",
+      "angleDeg": 111.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.680Z",
+      "angleDeg": 111.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.700Z",
+      "angleDeg": 114.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.720Z",
+      "angleDeg": 115.02
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.740Z",
+      "angleDeg": 113.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.760Z",
+      "angleDeg": 113.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.780Z",
+      "angleDeg": 113.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.800Z",
+      "angleDeg": 116.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.820Z",
+      "angleDeg": 113.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.840Z",
+      "angleDeg": 116.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.860Z",
+      "angleDeg": 118.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.880Z",
+      "angleDeg": 116.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.900Z",
+      "angleDeg": 117.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.920Z",
+      "angleDeg": 117.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.940Z",
+      "angleDeg": 119.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.960Z",
+      "angleDeg": 118.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:05.980Z",
+      "angleDeg": 119.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.000Z",
+      "angleDeg": 120.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.020Z",
+      "angleDeg": 120.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.040Z",
+      "angleDeg": 116.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.060Z",
+      "angleDeg": 118.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.080Z",
+      "angleDeg": 118.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.100Z",
+      "angleDeg": 118.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.120Z",
+      "angleDeg": 119.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.140Z",
+      "angleDeg": 116.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.160Z",
+      "angleDeg": 117.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.180Z",
+      "angleDeg": 116.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.200Z",
+      "angleDeg": 114.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.220Z",
+      "angleDeg": 115.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.240Z",
+      "angleDeg": 114
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.260Z",
+      "angleDeg": 114.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.280Z",
+      "angleDeg": 114.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.300Z",
+      "angleDeg": 112.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.320Z",
+      "angleDeg": 113.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.340Z",
+      "angleDeg": 112.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.360Z",
+      "angleDeg": 109.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.380Z",
+      "angleDeg": 108.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.400Z",
+      "angleDeg": 107.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.420Z",
+      "angleDeg": 108.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.440Z",
+      "angleDeg": 106.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.460Z",
+      "angleDeg": 105.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.480Z",
+      "angleDeg": 103.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.500Z",
+      "angleDeg": 103.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.520Z",
+      "angleDeg": 97.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.540Z",
+      "angleDeg": 101.12
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.560Z",
+      "angleDeg": 95.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.580Z",
+      "angleDeg": 94.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.600Z",
+      "angleDeg": 95.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.620Z",
+      "angleDeg": 95.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.640Z",
+      "angleDeg": 91.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.660Z",
+      "angleDeg": 89.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.680Z",
+      "angleDeg": 90.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.700Z",
+      "angleDeg": 88.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.720Z",
+      "angleDeg": 84.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.740Z",
+      "angleDeg": 86.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.760Z",
+      "angleDeg": 80.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.780Z",
+      "angleDeg": 81.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.800Z",
+      "angleDeg": 78.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.820Z",
+      "angleDeg": 77.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.840Z",
+      "angleDeg": 75.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.860Z",
+      "angleDeg": 71.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.880Z",
+      "angleDeg": 74.37
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.900Z",
+      "angleDeg": 70.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.920Z",
+      "angleDeg": 68.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.940Z",
+      "angleDeg": 67.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.960Z",
+      "angleDeg": 65.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:06.980Z",
+      "angleDeg": 63.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.000Z",
+      "angleDeg": 58.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.020Z",
+      "angleDeg": 58.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.040Z",
+      "angleDeg": 58.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.060Z",
+      "angleDeg": 55.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.080Z",
+      "angleDeg": 55.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.100Z",
+      "angleDeg": 50.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.120Z",
+      "angleDeg": 49.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.140Z",
+      "angleDeg": 52.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.160Z",
+      "angleDeg": 47.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.180Z",
+      "angleDeg": 45.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.200Z",
+      "angleDeg": 44.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.220Z",
+      "angleDeg": 41.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.240Z",
+      "angleDeg": 40.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.260Z",
+      "angleDeg": 36.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.280Z",
+      "angleDeg": 37.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.300Z",
+      "angleDeg": 36.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.320Z",
+      "angleDeg": 34.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.340Z",
+      "angleDeg": 34.42
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.360Z",
+      "angleDeg": 31.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.380Z",
+      "angleDeg": 29.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.400Z",
+      "angleDeg": 27.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.420Z",
+      "angleDeg": 25.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.440Z",
+      "angleDeg": 23.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.460Z",
+      "angleDeg": 22.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.480Z",
+      "angleDeg": 22.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.500Z",
+      "angleDeg": 20.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.520Z",
+      "angleDeg": 18.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.540Z",
+      "angleDeg": 17.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.560Z",
+      "angleDeg": 19.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.580Z",
+      "angleDeg": 13.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.600Z",
+      "angleDeg": 15.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.620Z",
+      "angleDeg": 13.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.640Z",
+      "angleDeg": 13.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.660Z",
+      "angleDeg": 13.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.680Z",
+      "angleDeg": 13.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.700Z",
+      "angleDeg": 9.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.720Z",
+      "angleDeg": 10.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.740Z",
+      "angleDeg": 7.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.760Z",
+      "angleDeg": 8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.780Z",
+      "angleDeg": 6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.800Z",
+      "angleDeg": 5.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.820Z",
+      "angleDeg": 6.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.840Z",
+      "angleDeg": 4.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.860Z",
+      "angleDeg": 6.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.880Z",
+      "angleDeg": 5.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.900Z",
+      "angleDeg": 4.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.920Z",
+      "angleDeg": 4.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.940Z",
+      "angleDeg": 5.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.960Z",
+      "angleDeg": 3.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:07.980Z",
+      "angleDeg": 4.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.000Z",
+      "angleDeg": 5.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.020Z",
+      "angleDeg": 3.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.040Z",
+      "angleDeg": 3.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.060Z",
+      "angleDeg": 5.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.080Z",
+      "angleDeg": 2.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.100Z",
+      "angleDeg": 5.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.120Z",
+      "angleDeg": 4.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.140Z",
+      "angleDeg": 4.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.160Z",
+      "angleDeg": 5.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.180Z",
+      "angleDeg": 6.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.200Z",
+      "angleDeg": 7.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.220Z",
+      "angleDeg": 5.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.240Z",
+      "angleDeg": 7.3
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.260Z",
+      "angleDeg": 9.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.280Z",
+      "angleDeg": 8.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.300Z",
+      "angleDeg": 9.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.320Z",
+      "angleDeg": 13.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.340Z",
+      "angleDeg": 11.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.360Z",
+      "angleDeg": 12.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.380Z",
+      "angleDeg": 14.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.400Z",
+      "angleDeg": 14.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.420Z",
+      "angleDeg": 15.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.440Z",
+      "angleDeg": 17.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.460Z",
+      "angleDeg": 18.53
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.480Z",
+      "angleDeg": 19.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.500Z",
+      "angleDeg": 21.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.520Z",
+      "angleDeg": 22.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.540Z",
+      "angleDeg": 24.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.560Z",
+      "angleDeg": 23.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.580Z",
+      "angleDeg": 27.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.600Z",
+      "angleDeg": 27.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.620Z",
+      "angleDeg": 28.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.640Z",
+      "angleDeg": 31.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.660Z",
+      "angleDeg": 32.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.680Z",
+      "angleDeg": 32.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.700Z",
+      "angleDeg": 34.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.720Z",
+      "angleDeg": 38.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.740Z",
+      "angleDeg": 40.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.760Z",
+      "angleDeg": 39.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.780Z",
+      "angleDeg": 40.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.800Z",
+      "angleDeg": 44.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.820Z",
+      "angleDeg": 46.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.840Z",
+      "angleDeg": 47.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.860Z",
+      "angleDeg": 48.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.880Z",
+      "angleDeg": 49.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.900Z",
+      "angleDeg": 49.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.920Z",
+      "angleDeg": 53.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.940Z",
+      "angleDeg": 55.81
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.960Z",
+      "angleDeg": 58.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:08.980Z",
+      "angleDeg": 60.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.000Z",
+      "angleDeg": 62.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.020Z",
+      "angleDeg": 62.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.040Z",
+      "angleDeg": 67.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.060Z",
+      "angleDeg": 67.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.080Z",
+      "angleDeg": 70.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.100Z",
+      "angleDeg": 71.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.120Z",
+      "angleDeg": 71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.140Z",
+      "angleDeg": 74.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.160Z",
+      "angleDeg": 74.12
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.180Z",
+      "angleDeg": 78.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.200Z",
+      "angleDeg": 77.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.220Z",
+      "angleDeg": 81.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.240Z",
+      "angleDeg": 83.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.260Z",
+      "angleDeg": 85.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.280Z",
+      "angleDeg": 85.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.300Z",
+      "angleDeg": 86.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.320Z",
+      "angleDeg": 90.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.340Z",
+      "angleDeg": 90.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.360Z",
+      "angleDeg": 90.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.380Z",
+      "angleDeg": 92.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.400Z",
+      "angleDeg": 93.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.420Z",
+      "angleDeg": 95.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.440Z",
+      "angleDeg": 99.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.460Z",
+      "angleDeg": 101.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.480Z",
+      "angleDeg": 100.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.500Z",
+      "angleDeg": 102.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.520Z",
+      "angleDeg": 102.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.540Z",
+      "angleDeg": 106.4
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.560Z",
+      "angleDeg": 104.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.580Z",
+      "angleDeg": 108.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.600Z",
+      "angleDeg": 109.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.620Z",
+      "angleDeg": 107.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.640Z",
+      "angleDeg": 107.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.660Z",
+      "angleDeg": 112.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.680Z",
+      "angleDeg": 112.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.700Z",
+      "angleDeg": 113.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.720Z",
+      "angleDeg": 113.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.740Z",
+      "angleDeg": 112.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.760Z",
+      "angleDeg": 111.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.780Z",
+      "angleDeg": 116.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.800Z",
+      "angleDeg": 116.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.820Z",
+      "angleDeg": 118.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.840Z",
+      "angleDeg": 116.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.860Z",
+      "angleDeg": 116.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.880Z",
+      "angleDeg": 118.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.900Z",
+      "angleDeg": 117.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.920Z",
+      "angleDeg": 119.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.940Z",
+      "angleDeg": 117.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.960Z",
+      "angleDeg": 119.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:09.980Z",
+      "angleDeg": 118.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.000Z",
+      "angleDeg": 119.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.020Z",
+      "angleDeg": 117.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.040Z",
+      "angleDeg": 119.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.060Z",
+      "angleDeg": 119.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.080Z",
+      "angleDeg": 115.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.100Z",
+      "angleDeg": 118.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.120Z",
+      "angleDeg": 117.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.140Z",
+      "angleDeg": 115.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.160Z",
+      "angleDeg": 118.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.180Z",
+      "angleDeg": 116.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.200Z",
+      "angleDeg": 117.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.220Z",
+      "angleDeg": 115.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.240Z",
+      "angleDeg": 115.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.260Z",
+      "angleDeg": 114.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.280Z",
+      "angleDeg": 112.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.300Z",
+      "angleDeg": 113.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.320Z",
+      "angleDeg": 111.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.340Z",
+      "angleDeg": 112.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.360Z",
+      "angleDeg": 109.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.380Z",
+      "angleDeg": 106.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.400Z",
+      "angleDeg": 107.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.420Z",
+      "angleDeg": 106.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.440Z",
+      "angleDeg": 105.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.460Z",
+      "angleDeg": 105.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.480Z",
+      "angleDeg": 102.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.500Z",
+      "angleDeg": 101.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.520Z",
+      "angleDeg": 101.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.540Z",
+      "angleDeg": 100.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.560Z",
+      "angleDeg": 98.02
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.580Z",
+      "angleDeg": 97.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.600Z",
+      "angleDeg": 94.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.620Z",
+      "angleDeg": 93.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.640Z",
+      "angleDeg": 93.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.660Z",
+      "angleDeg": 90.53
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.680Z",
+      "angleDeg": 90.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.700Z",
+      "angleDeg": 89.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.720Z",
+      "angleDeg": 86.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.740Z",
+      "angleDeg": 84.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.760Z",
+      "angleDeg": 81.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.780Z",
+      "angleDeg": 79.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.800Z",
+      "angleDeg": 80.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.820Z",
+      "angleDeg": 77.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.840Z",
+      "angleDeg": 75.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.860Z",
+      "angleDeg": 74.42
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.880Z",
+      "angleDeg": 69.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.900Z",
+      "angleDeg": 70.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.920Z",
+      "angleDeg": 69.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.940Z",
+      "angleDeg": 67.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.960Z",
+      "angleDeg": 64.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:10.980Z",
+      "angleDeg": 64.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.000Z",
+      "angleDeg": 61.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.020Z",
+      "angleDeg": 60.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.040Z",
+      "angleDeg": 57.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.060Z",
+      "angleDeg": 54.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.080Z",
+      "angleDeg": 54.61
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.100Z",
+      "angleDeg": 51.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.120Z",
+      "angleDeg": 49.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.140Z",
+      "angleDeg": 49.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.160Z",
+      "angleDeg": 45.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.180Z",
+      "angleDeg": 45.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.200Z",
+      "angleDeg": 41.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.220Z",
+      "angleDeg": 42.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.240Z",
+      "angleDeg": 41.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.260Z",
+      "angleDeg": 39.81
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.280Z",
+      "angleDeg": 35.53
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.300Z",
+      "angleDeg": 35.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.320Z",
+      "angleDeg": 35.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.340Z",
+      "angleDeg": 31.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.360Z",
+      "angleDeg": 30.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.380Z",
+      "angleDeg": 30.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.400Z",
+      "angleDeg": 28.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.420Z",
+      "angleDeg": 27.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.440Z",
+      "angleDeg": 24.4
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.460Z",
+      "angleDeg": 24.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.480Z",
+      "angleDeg": 23.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.500Z",
+      "angleDeg": 20.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.520Z",
+      "angleDeg": 19.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.540Z",
+      "angleDeg": 18.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.560Z",
+      "angleDeg": 18.83
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.580Z",
+      "angleDeg": 15.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.600Z",
+      "angleDeg": 14.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.620Z",
+      "angleDeg": 12.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.640Z",
+      "angleDeg": 12.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.660Z",
+      "angleDeg": 11.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.680Z",
+      "angleDeg": 10.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.700Z",
+      "angleDeg": 10.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.720Z",
+      "angleDeg": 9.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.740Z",
+      "angleDeg": 7.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.760Z",
+      "angleDeg": 7.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.780Z",
+      "angleDeg": 6.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.800Z",
+      "angleDeg": 5.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.820Z",
+      "angleDeg": 7.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.840Z",
+      "angleDeg": 8.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.860Z",
+      "angleDeg": 4.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.880Z",
+      "angleDeg": 6.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.900Z",
+      "angleDeg": 5.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.920Z",
+      "angleDeg": 6.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.940Z",
+      "angleDeg": 2.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.960Z",
+      "angleDeg": 3.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:11.980Z",
+      "angleDeg": 4.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.000Z",
+      "angleDeg": 3.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.020Z",
+      "angleDeg": 4.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.040Z",
+      "angleDeg": 4.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.060Z",
+      "angleDeg": 5.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.080Z",
+      "angleDeg": 6.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.100Z",
+      "angleDeg": 4.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.120Z",
+      "angleDeg": 5.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.140Z",
+      "angleDeg": 6.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.160Z",
+      "angleDeg": 6.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.180Z",
+      "angleDeg": 3.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.200Z",
+      "angleDeg": 7.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.220Z",
+      "angleDeg": 7.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.240Z",
+      "angleDeg": 6.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.260Z",
+      "angleDeg": 8.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.280Z",
+      "angleDeg": 9.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.300Z",
+      "angleDeg": 7.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.320Z",
+      "angleDeg": 12.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.340Z",
+      "angleDeg": 9.77
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.360Z",
+      "angleDeg": 13.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.380Z",
+      "angleDeg": 15.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.400Z",
+      "angleDeg": 15.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.420Z",
+      "angleDeg": 17.3
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.440Z",
+      "angleDeg": 16.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.460Z",
+      "angleDeg": 17.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.480Z",
+      "angleDeg": 19.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.500Z",
+      "angleDeg": 22.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.520Z",
+      "angleDeg": 21.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.540Z",
+      "angleDeg": 23.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.560Z",
+      "angleDeg": 25.01
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.580Z",
+      "angleDeg": 25.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.600Z",
+      "angleDeg": 28.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.620Z",
+      "angleDeg": 31.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.640Z",
+      "angleDeg": 31.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.660Z",
+      "angleDeg": 30.3
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.680Z",
+      "angleDeg": 34.4
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.700Z",
+      "angleDeg": 35.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.720Z",
+      "angleDeg": 37.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.740Z",
+      "angleDeg": 40.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.760Z",
+      "angleDeg": 41.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.780Z",
+      "angleDeg": 41.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.800Z",
+      "angleDeg": 43.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.820Z",
+      "angleDeg": 45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.840Z",
+      "angleDeg": 48.02
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.860Z",
+      "angleDeg": 49.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.880Z",
+      "angleDeg": 49.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.900Z",
+      "angleDeg": 53.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.920Z",
+      "angleDeg": 56.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.940Z",
+      "angleDeg": 58.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.960Z",
+      "angleDeg": 58.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:12.980Z",
+      "angleDeg": 61.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.000Z",
+      "angleDeg": 61.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.020Z",
+      "angleDeg": 63.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.040Z",
+      "angleDeg": 64.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.060Z",
+      "angleDeg": 66.42
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.080Z",
+      "angleDeg": 70.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.100Z",
+      "angleDeg": 70.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.120Z",
+      "angleDeg": 73.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.140Z",
+      "angleDeg": 76.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.160Z",
+      "angleDeg": 75.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.180Z",
+      "angleDeg": 75.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.200Z",
+      "angleDeg": 81.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.220Z",
+      "angleDeg": 79.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.240Z",
+      "angleDeg": 83.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.260Z",
+      "angleDeg": 85.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.280Z",
+      "angleDeg": 86.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.300Z",
+      "angleDeg": 88.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.320Z",
+      "angleDeg": 89.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.340Z",
+      "angleDeg": 92.1
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.360Z",
+      "angleDeg": 91.76
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.380Z",
+      "angleDeg": 93.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.400Z",
+      "angleDeg": 94.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.420Z",
+      "angleDeg": 97.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.440Z",
+      "angleDeg": 97.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.460Z",
+      "angleDeg": 99.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.480Z",
+      "angleDeg": 101.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.500Z",
+      "angleDeg": 103.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.520Z",
+      "angleDeg": 103.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.540Z",
+      "angleDeg": 103.67
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.560Z",
+      "angleDeg": 104.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.580Z",
+      "angleDeg": 106.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.600Z",
+      "angleDeg": 108.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.620Z",
+      "angleDeg": 108.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.640Z",
+      "angleDeg": 109.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.660Z",
+      "angleDeg": 112.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.680Z",
+      "angleDeg": 112.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.700Z",
+      "angleDeg": 112.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.720Z",
+      "angleDeg": 112.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.740Z",
+      "angleDeg": 114.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.760Z",
+      "angleDeg": 116.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.780Z",
+      "angleDeg": 113.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.800Z",
+      "angleDeg": 118.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.820Z",
+      "angleDeg": 114.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.840Z",
+      "angleDeg": 118.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.860Z",
+      "angleDeg": 117.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.880Z",
+      "angleDeg": 116.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.900Z",
+      "angleDeg": 119.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.920Z",
+      "angleDeg": 118.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.940Z",
+      "angleDeg": 118.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.960Z",
+      "angleDeg": 118.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:13.980Z",
+      "angleDeg": 118.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.000Z",
+      "angleDeg": 119.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.020Z",
+      "angleDeg": 119.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.040Z",
+      "angleDeg": 119.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.060Z",
+      "angleDeg": 119.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.080Z",
+      "angleDeg": 117.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.100Z",
+      "angleDeg": 117.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.120Z",
+      "angleDeg": 119.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.140Z",
+      "angleDeg": 119.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.160Z",
+      "angleDeg": 117.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.180Z",
+      "angleDeg": 116.31
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.200Z",
+      "angleDeg": 118.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.220Z",
+      "angleDeg": 116.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.240Z",
+      "angleDeg": 114.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.260Z",
+      "angleDeg": 114.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.280Z",
+      "angleDeg": 113.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.300Z",
+      "angleDeg": 110.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.320Z",
+      "angleDeg": 110.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.340Z",
+      "angleDeg": 111.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.360Z",
+      "angleDeg": 109.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.380Z",
+      "angleDeg": 107.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.400Z",
+      "angleDeg": 108.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.420Z",
+      "angleDeg": 107.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.440Z",
+      "angleDeg": 104.4
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.460Z",
+      "angleDeg": 104.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.480Z",
+      "angleDeg": 100.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.500Z",
+      "angleDeg": 100.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.520Z",
+      "angleDeg": 103.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.540Z",
+      "angleDeg": 100.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.560Z",
+      "angleDeg": 99.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.580Z",
+      "angleDeg": 96.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.600Z",
+      "angleDeg": 95.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.620Z",
+      "angleDeg": 94.53
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.640Z",
+      "angleDeg": 93.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.660Z",
+      "angleDeg": 88.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.680Z",
+      "angleDeg": 88.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.700Z",
+      "angleDeg": 88.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.720Z",
+      "angleDeg": 85.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.740Z",
+      "angleDeg": 83.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.760Z",
+      "angleDeg": 83.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.780Z",
+      "angleDeg": 79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.800Z",
+      "angleDeg": 78.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.820Z",
+      "angleDeg": 78.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.840Z",
+      "angleDeg": 77.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.860Z",
+      "angleDeg": 74.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.880Z",
+      "angleDeg": 72.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.900Z",
+      "angleDeg": 71.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.920Z",
+      "angleDeg": 68.06
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.940Z",
+      "angleDeg": 66.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.960Z",
+      "angleDeg": 67.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:14.980Z",
+      "angleDeg": 62.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.000Z",
+      "angleDeg": 62.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.020Z",
+      "angleDeg": 60.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.040Z",
+      "angleDeg": 58.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.060Z",
+      "angleDeg": 55.12
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.080Z",
+      "angleDeg": 57.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.100Z",
+      "angleDeg": 55.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.120Z",
+      "angleDeg": 50.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.140Z",
+      "angleDeg": 47.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.160Z",
+      "angleDeg": 48.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.180Z",
+      "angleDeg": 44.21
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.200Z",
+      "angleDeg": 44.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.220Z",
+      "angleDeg": 42.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.240Z",
+      "angleDeg": 40.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.260Z",
+      "angleDeg": 38.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.280Z",
+      "angleDeg": 37.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.300Z",
+      "angleDeg": 35.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.320Z",
+      "angleDeg": 33.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.340Z",
+      "angleDeg": 30.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.360Z",
+      "angleDeg": 29.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.380Z",
+      "angleDeg": 30.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.400Z",
+      "angleDeg": 27.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.420Z",
+      "angleDeg": 26.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.440Z",
+      "angleDeg": 24.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.460Z",
+      "angleDeg": 23.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.480Z",
+      "angleDeg": 21.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.500Z",
+      "angleDeg": 21.04
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.520Z",
+      "angleDeg": 20.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.540Z",
+      "angleDeg": 17.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.560Z",
+      "angleDeg": 17.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.580Z",
+      "angleDeg": 16.54
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.600Z",
+      "angleDeg": 15.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.620Z",
+      "angleDeg": 12.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.640Z",
+      "angleDeg": 12.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.660Z",
+      "angleDeg": 12.15
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.680Z",
+      "angleDeg": 13.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.700Z",
+      "angleDeg": 7.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.720Z",
+      "angleDeg": 9.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.740Z",
+      "angleDeg": 8.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.760Z",
+      "angleDeg": 7.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.780Z",
+      "angleDeg": 8.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.800Z",
+      "angleDeg": 9.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.820Z",
+      "angleDeg": 7.18
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.840Z",
+      "angleDeg": 4.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.860Z",
+      "angleDeg": 6.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.880Z",
+      "angleDeg": 4.37
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.900Z",
+      "angleDeg": 5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.920Z",
+      "angleDeg": 4.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.940Z",
+      "angleDeg": 3.85
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.960Z",
+      "angleDeg": 2.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:15.980Z",
+      "angleDeg": 6.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.000Z",
+      "angleDeg": 4.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.020Z",
+      "angleDeg": 4.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.040Z",
+      "angleDeg": 3.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.060Z",
+      "angleDeg": 2.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.080Z",
+      "angleDeg": 2.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.100Z",
+      "angleDeg": 7.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.120Z",
+      "angleDeg": 4.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.140Z",
+      "angleDeg": 4.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.160Z",
+      "angleDeg": 4.24
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.180Z",
+      "angleDeg": 6.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.200Z",
+      "angleDeg": 8.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.220Z",
+      "angleDeg": 6.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.240Z",
+      "angleDeg": 8.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.260Z",
+      "angleDeg": 10.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.280Z",
+      "angleDeg": 8.66
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.300Z",
+      "angleDeg": 10.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.320Z",
+      "angleDeg": 12.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.340Z",
+      "angleDeg": 11.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.360Z",
+      "angleDeg": 11.86
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.380Z",
+      "angleDeg": 14.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.400Z",
+      "angleDeg": 13.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.420Z",
+      "angleDeg": 16.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.440Z",
+      "angleDeg": 19.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.460Z",
+      "angleDeg": 20.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.480Z",
+      "angleDeg": 19.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.500Z",
+      "angleDeg": 20.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.520Z",
+      "angleDeg": 23.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.540Z",
+      "angleDeg": 23.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.560Z",
+      "angleDeg": 24.94
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.580Z",
+      "angleDeg": 28.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.600Z",
+      "angleDeg": 27.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.620Z",
+      "angleDeg": 27.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.640Z",
+      "angleDeg": 30.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.660Z",
+      "angleDeg": 31.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.680Z",
+      "angleDeg": 32.06
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.700Z",
+      "angleDeg": 36.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.720Z",
+      "angleDeg": 37.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.740Z",
+      "angleDeg": 41.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.760Z",
+      "angleDeg": 41.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.780Z",
+      "angleDeg": 41.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.800Z",
+      "angleDeg": 43.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.820Z",
+      "angleDeg": 44.42
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.840Z",
+      "angleDeg": 47.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.860Z",
+      "angleDeg": 50.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.880Z",
+      "angleDeg": 52.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.900Z",
+      "angleDeg": 52.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.920Z",
+      "angleDeg": 54.34
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.940Z",
+      "angleDeg": 55.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.960Z",
+      "angleDeg": 58.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:16.980Z",
+      "angleDeg": 60.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.000Z",
+      "angleDeg": 63.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.020Z",
+      "angleDeg": 63.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.040Z",
+      "angleDeg": 67.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.060Z",
+      "angleDeg": 68.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.080Z",
+      "angleDeg": 69.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.100Z",
+      "angleDeg": 71.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.120Z",
+      "angleDeg": 73.13
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.140Z",
+      "angleDeg": 73.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.160Z",
+      "angleDeg": 77.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.180Z",
+      "angleDeg": 78.51
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.200Z",
+      "angleDeg": 77.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.220Z",
+      "angleDeg": 81.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.240Z",
+      "angleDeg": 81.05
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.260Z",
+      "angleDeg": 84.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.280Z",
+      "angleDeg": 85.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.300Z",
+      "angleDeg": 86.47
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.320Z",
+      "angleDeg": 90.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.340Z",
+      "angleDeg": 89.9
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.360Z",
+      "angleDeg": 93.59
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.380Z",
+      "angleDeg": 91.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.400Z",
+      "angleDeg": 95.14
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.420Z",
+      "angleDeg": 96.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.440Z",
+      "angleDeg": 95.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.460Z",
+      "angleDeg": 98.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.480Z",
+      "angleDeg": 99.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.500Z",
+      "angleDeg": 102.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.520Z",
+      "angleDeg": 104.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.540Z",
+      "angleDeg": 101.79
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.560Z",
+      "angleDeg": 107.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.580Z",
+      "angleDeg": 107.5
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.600Z",
+      "angleDeg": 108.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.620Z",
+      "angleDeg": 107.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.640Z",
+      "angleDeg": 110.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.660Z",
+      "angleDeg": 111.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.680Z",
+      "angleDeg": 113.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.700Z",
+      "angleDeg": 113.61
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.720Z",
+      "angleDeg": 113.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.740Z",
+      "angleDeg": 114.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.760Z",
+      "angleDeg": 116.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.780Z",
+      "angleDeg": 115.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.800Z",
+      "angleDeg": 115.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.820Z",
+      "angleDeg": 116.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.840Z",
+      "angleDeg": 117.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.860Z",
+      "angleDeg": 117.91
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.880Z",
+      "angleDeg": 118.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.900Z",
+      "angleDeg": 119.7
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.920Z",
+      "angleDeg": 118.26
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.940Z",
+      "angleDeg": 120.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.960Z",
+      "angleDeg": 117.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:17.980Z",
+      "angleDeg": 120.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.000Z",
+      "angleDeg": 118.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.020Z",
+      "angleDeg": 119.92
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.040Z",
+      "angleDeg": 116.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.060Z",
+      "angleDeg": 118.78
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.080Z",
+      "angleDeg": 118.87
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.100Z",
+      "angleDeg": 114.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.120Z",
+      "angleDeg": 117.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.140Z",
+      "angleDeg": 117.2
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.160Z",
+      "angleDeg": 116.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.180Z",
+      "angleDeg": 117.52
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.200Z",
+      "angleDeg": 116.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.220Z",
+      "angleDeg": 116.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.240Z",
+      "angleDeg": 116.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.260Z",
+      "angleDeg": 111.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.280Z",
+      "angleDeg": 113.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.300Z",
+      "angleDeg": 111.32
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.320Z",
+      "angleDeg": 111.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.340Z",
+      "angleDeg": 111.99
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.360Z",
+      "angleDeg": 111.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.380Z",
+      "angleDeg": 109.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.400Z",
+      "angleDeg": 106.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.420Z",
+      "angleDeg": 105.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.440Z",
+      "angleDeg": 107.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.460Z",
+      "angleDeg": 106.25
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.480Z",
+      "angleDeg": 103.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.500Z",
+      "angleDeg": 101.46
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.520Z",
+      "angleDeg": 101.16
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.540Z",
+      "angleDeg": 98.44
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.560Z",
+      "angleDeg": 98.49
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.580Z",
+      "angleDeg": 96.8
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.600Z",
+      "angleDeg": 94.03
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.620Z",
+      "angleDeg": 95.57
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.640Z",
+      "angleDeg": 93.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.660Z",
+      "angleDeg": 88.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.680Z",
+      "angleDeg": 88.28
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.700Z",
+      "angleDeg": 87.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.720Z",
+      "angleDeg": 86.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.740Z",
+      "angleDeg": 86.09
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.760Z",
+      "angleDeg": 84.22
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.780Z",
+      "angleDeg": 78.82
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.800Z",
+      "angleDeg": 79.39
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.820Z",
+      "angleDeg": 77.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.840Z",
+      "angleDeg": 77.71
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.860Z",
+      "angleDeg": 74.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.880Z",
+      "angleDeg": 72.17
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.900Z",
+      "angleDeg": 70.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.920Z",
+      "angleDeg": 69.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.940Z",
+      "angleDeg": 68.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.960Z",
+      "angleDeg": 62.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:18.980Z",
+      "angleDeg": 61.69
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.000Z",
+      "angleDeg": 60.62
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.020Z",
+      "angleDeg": 56.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.040Z",
+      "angleDeg": 57.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.060Z",
+      "angleDeg": 55.37
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.080Z",
+      "angleDeg": 54.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.100Z",
+      "angleDeg": 52.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.120Z",
+      "angleDeg": 49.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.140Z",
+      "angleDeg": 49.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.160Z",
+      "angleDeg": 46.38
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.180Z",
+      "angleDeg": 45.23
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.200Z",
+      "angleDeg": 44.63
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.220Z",
+      "angleDeg": 39.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.240Z",
+      "angleDeg": 39.93
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.260Z",
+      "angleDeg": 37.95
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.280Z",
+      "angleDeg": 37.84
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.300Z",
+      "angleDeg": 36.33
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.320Z",
+      "angleDeg": 35.19
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.340Z",
+      "angleDeg": 30.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.360Z",
+      "angleDeg": 29.88
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.380Z",
+      "angleDeg": 29.58
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.400Z",
+      "angleDeg": 28.41
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.420Z",
+      "angleDeg": 24.6
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.440Z",
+      "angleDeg": 23.97
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.460Z",
+      "angleDeg": 21.06
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.480Z",
+      "angleDeg": 22.02
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.500Z",
+      "angleDeg": 18.81
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.520Z",
+      "angleDeg": 18.27
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.540Z",
+      "angleDeg": 15.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.560Z",
+      "angleDeg": 14.36
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.580Z",
+      "angleDeg": 17.43
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.600Z",
+      "angleDeg": 15.35
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.620Z",
+      "angleDeg": 17.07
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.640Z",
+      "angleDeg": 11.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.660Z",
+      "angleDeg": 10.68
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.680Z",
+      "angleDeg": 11.08
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.700Z",
+      "angleDeg": 10.75
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.720Z",
+      "angleDeg": 11.29
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.740Z",
+      "angleDeg": 5.98
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.760Z",
+      "angleDeg": 8.55
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.780Z",
+      "angleDeg": 8.56
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.800Z",
+      "angleDeg": 6.11
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.820Z",
+      "angleDeg": 6.65
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.840Z",
+      "angleDeg": 7.45
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.860Z",
+      "angleDeg": 3.48
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.880Z",
+      "angleDeg": 4.64
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.900Z",
+      "angleDeg": 3.96
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.920Z",
+      "angleDeg": 4.72
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.940Z",
+      "angleDeg": 3.74
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.960Z",
+      "angleDeg": 5.73
+    },
+    {
+      "timestamp": "2026-10-26T04:30:19.980Z",
+      "angleDeg": 4.89
+    },
+    {
+      "timestamp": "2026-10-26T04:30:20.000Z",
+      "angleDeg": 5.74
+    }
+  ],
+  "description": "SYNTHETIC data — simulation-generated, not a measurement of any person.",
+  "generator": {
+    "tool": "RheumaTrack synthetic model (TypeScript port of rt_generate_synthetic.m)",
+    "sampleRateHz": 50,
+    "durationS": 20,
+    "baseDeg": 4,
+    "amplitudeDeg": 115,
+    "periodS": 4,
+    "noiseSdDeg": 1.2,
+    "seed": 16
+  }
+}

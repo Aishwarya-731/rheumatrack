@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "demo-rheumatrack",
+    "prod": "rheumatrack-prod"
+  },
+  "targets": {},
+  "etags": {}
+}

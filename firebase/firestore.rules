@@ -1,0 +1,250 @@
+rules_version = '2';
+
+// RheumaTrack — Cloud Firestore Security Rules
+// Design and threat model: docs/SECURITY.md. Tests: tests/rules/firestore.rules.test.ts
+//
+// Principles
+//  * Deny by default. Every allowed operation is listed below.
+//  * Each person's records live under /users/{uid} and only that person can write them.
+//  * A clinician can READ a patient's records only while /shares/{patientUid}_{clinicianUid}
+//    exists AND the clinician holds the clinician role in /roles. Changing a URL or document ID
+//    does not grant anything.
+//  * Roles are written only by the Admin SDK (scripts/grant-clinician.ts); clients cannot write
+//    /roles, so a role can never be established from client state.
+//  * Records are validated on write (types, ranges, allowed keys, server timestamps).
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- helpers ----------
+    function signedIn() {
+      return request.auth != null;
+    }
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+    function roleDoc() {
+      return /databases/$(database)/documents/roles/$(request.auth.uid);
+    }
+    function isClinician() {
+      return signedIn() && exists(roleDoc()) && get(roleDoc()).data.role == 'clinician';
+    }
+    function myEmail() {
+      return request.auth.token.email.lower();
+    }
+    function verifiedEmail() {
+      return request.auth.token.email is string && request.auth.token.email_verified == true;
+    }
+    function hasShare(patientUid) {
+      return signedIn()
+        && exists(/databases/$(database)/documents/shares/$(patientUid + '_' + request.auth.uid))
+        && isClinician();
+    }
+    function canRead(uid) {
+      return isOwner(uid) || hasShare(uid);
+    }
+    function isJoint(v) {
+      return v in ['shoulder', 'elbow', 'wrist', 'hip', 'knee', 'ankle'];
+    }
+    function isSide(v) {
+      return v in ['left', 'right'];
+    }
+    function validMovement(j, m) {
+      return (j == 'shoulder' && m in ['flexion', 'extension', 'abduction'])
+        || (j in ['elbow', 'wrist', 'hip', 'knee'] && m in ['flexion', 'extension'])
+        || (j == 'ankle' && m in ['dorsiflexion', 'plantarflexion']);
+    }
+    function score(v) {
+      return v is int && v >= 0 && v <= 10;
+    }
+    function shortText(v, max) {
+      return v is string && v.size() <= max;
+    }
+    function validReminders(r) {
+      return r is map
+        && r.keys().hasOnly(['enabled', 'time', 'days', 'timezone'])
+        && r.enabled is bool
+        && r.time is string && r.time.matches('^([01][0-9]|2[0-3]):[0-5][0-9]$')
+        && r.days is list && r.days.size() >= 1 && r.days.size() <= 7
+        && r.timezone is string && r.timezone.size() <= 64;
+    }
+    function changedOnly(keys) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(keys);
+    }
+
+    // ---------- roles (Admin SDK only) ----------
+    match /roles/{uid} {
+      allow read: if isOwner(uid);
+      allow write: if false;
+    }
+
+    // ---------- user profile and records ----------
+    match /users/{uid} {
+      allow read: if canRead(uid);
+      allow create: if isOwner(uid)
+        && request.resource.data.keys().hasOnly(['displayName', 'email', 'createdAt', 'reminders', 'preferredJoint', 'preferredSide', 'schemaVersion'])
+        && shortText(request.resource.data.displayName, 80)
+        && request.resource.data.email == myEmail()
+        && request.resource.data.createdAt == request.time
+        && validReminders(request.resource.data.reminders)
+        && request.resource.data.preferredJoint == null
+        && request.resource.data.preferredSide == null
+        && request.resource.data.schemaVersion == 1;
+      allow update: if isOwner(uid)
+        && changedOnly(['displayName', 'reminders', 'preferredJoint', 'preferredSide', 'updatedAt'])
+        && shortText(request.resource.data.displayName, 80)
+        && validReminders(request.resource.data.reminders)
+        && (request.resource.data.preferredJoint == null || isJoint(request.resource.data.preferredJoint))
+        && (request.resource.data.preferredSide == null || isSide(request.resource.data.preferredSide))
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if isOwner(uid);
+
+      // Movement sessions. Samples are stored in /chunks. Hardware-sourced sessions cannot be
+      // created: no sensor adapter exists, so "measured by connected hardware" is impossible.
+      match /sessions/{sid} {
+        allow read: if canRead(uid);
+        allow create: if isOwner(uid) && validNewSession(request.resource.data, uid);
+        allow update: if isOwner(uid)
+          && changedOnly(['notes', 'updatedAt'])
+          && shortText(request.resource.data.notes, 2000)
+          && request.resource.data.updatedAt == request.time;
+        allow delete: if isOwner(uid);
+
+        match /chunks/{cid} {
+          allow read: if canRead(uid);
+          allow create: if isOwner(uid)
+            && request.resource.data.keys().hasOnly(['index', 't', 'a'])
+            && request.resource.data.index is int && request.resource.data.index >= 0 && request.resource.data.index < 10
+            && request.resource.data.t is list && request.resource.data.a is list
+            && request.resource.data.t.size() == request.resource.data.a.size()
+            && request.resource.data.t.size() >= 1 && request.resource.data.t.size() <= 5000;
+          allow update: if false;
+          allow delete: if isOwner(uid);
+        }
+      }
+
+      // Symptom assessments.
+      match /assessments/{aid} {
+        allow read: if canRead(uid);
+        allow create: if isOwner(uid)
+          && validAssessmentFields(request.resource.data)
+          && request.resource.data.keys().hasOnly(['joint', 'side', 'pain', 'stiffness', 'discomfort', 'durationMinutes', 'notes', 'assessedAt', 'createdAt', 'updatedAt', 'createdBy', 'isSynthetic', 'schemaVersion'])
+          && request.resource.data.createdAt == request.time
+          && request.resource.data.updatedAt == null
+          && request.resource.data.createdBy == uid
+          && request.resource.data.isSynthetic is bool
+          && request.resource.data.schemaVersion == 1;
+        allow update: if isOwner(uid)
+          && validAssessmentFields(request.resource.data)
+          && changedOnly(['joint', 'side', 'pain', 'stiffness', 'discomfort', 'durationMinutes', 'notes', 'assessedAt', 'updatedAt'])
+          && request.resource.data.updatedAt == request.time;
+        allow delete: if isOwner(uid);
+      }
+
+      // Calibration records are immutable once written.
+      match /calibrations/{cid} {
+        allow read: if canRead(uid);
+        allow create: if isOwner(uid)
+          && request.resource.data.keys().hasOnly(['joint', 'side', 'movement', 'inputSource', 'sourceFileName', 'outcome', 'referenceAngleDeg', 'holdSdDeg', 'holdDurationMs', 'sampleCount', 'validationMessages', 'config', 'createdAt', 'createdBy', 'schemaVersion'])
+          && isJoint(request.resource.data.joint)
+          && isSide(request.resource.data.side)
+          && validMovement(request.resource.data.joint, request.resource.data.movement)
+          && request.resource.data.inputSource == 'static-reference-file'
+          && request.resource.data.outcome in ['completed', 'failed']
+          && (request.resource.data.outcome == 'failed' || request.resource.data.referenceAngleDeg is number)
+          && shortText(request.resource.data.sourceFileName, 255)
+          && request.resource.data.validationMessages is list && request.resource.data.validationMessages.size() <= 20
+          && request.resource.data.createdAt == request.time
+          && request.resource.data.createdBy == uid
+          && request.resource.data.schemaVersion == 1;
+        allow update: if false;
+        allow delete: if isOwner(uid);
+      }
+    }
+
+    function validNewSession(d, uid) {
+      return d.keys().hasOnly(['joint', 'side', 'movement', 'source', 'isSynthetic', 'sourceFileName', 'sourceFormat', 'startedAt', 'endedAt', 'createdAt', 'createdBy', 'metrics', 'calibrationId', 'calibrationStatus', 'notes', 'chunkCount', 'schemaVersion'])
+        && isJoint(d.joint) && isSide(d.side) && validMovement(d.joint, d.movement)
+        && d.source in ['imported', 'simulation']
+        && d.isSynthetic == (d.source == 'simulation')
+        && d.sourceFormat in ['csv', 'json', 'generated']
+        && (d.sourceFileName == null || shortText(d.sourceFileName, 255))
+        && d.startedAt is timestamp && d.endedAt is timestamp && d.endedAt > d.startedAt
+        && d.createdAt == request.time
+        && d.createdBy == uid
+        && d.metrics is map
+        && d.metrics.sampleCount is int && d.metrics.sampleCount >= 10 && d.metrics.sampleCount <= 50000
+        && d.metrics.minDeg is number && d.metrics.maxDeg is number && d.metrics.romDeg is number
+        && d.metrics.minDeg >= -180 && d.metrics.maxDeg <= 180
+        && d.metrics.romDeg == d.metrics.maxDeg - d.metrics.minDeg
+        && d.calibrationStatus in ['not-calibrated', 'reference-available']
+        && ((d.calibrationStatus == 'not-calibrated' && d.calibrationId == null)
+            || (d.calibrationStatus == 'reference-available' && d.calibrationId is string))
+        && shortText(d.notes, 2000)
+        && d.chunkCount is int && d.chunkCount >= 1 && d.chunkCount <= 10
+        && d.schemaVersion == 1;
+    }
+
+    function validAssessmentFields(d) {
+      return isJoint(d.joint) && isSide(d.side)
+        && score(d.pain) && score(d.stiffness) && score(d.discomfort)
+        && (d.durationMinutes == null || (d.durationMinutes is int && d.durationMinutes >= 0 && d.durationMinutes <= 1440))
+        && shortText(d.notes, 2000)
+        && d.assessedAt is timestamp
+        && d.assessedAt <= request.time + duration.value(5, 'm');
+    }
+
+    // ---------- sharing ----------
+    // Invitations are created by a patient for one clinician email address.
+    match /invites/{inviteId} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['patientUid', 'patientName', 'clinicianEmail', 'status', 'createdAt'])
+        && request.resource.data.patientUid == request.auth.uid
+        && shortText(request.resource.data.patientName, 120)
+        && request.resource.data.clinicianEmail is string
+        && request.resource.data.clinicianEmail.size() <= 254
+        && request.resource.data.clinicianEmail == request.resource.data.clinicianEmail.lower()
+        && request.resource.data.clinicianEmail.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && request.resource.data.clinicianEmail != myEmail()
+        && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time;
+      allow read: if signedIn()
+        && (resource.data.patientUid == request.auth.uid
+            || (isClinician() && verifiedEmail() && resource.data.clinicianEmail == myEmail()));
+      allow update: if signedIn() && changedOnly(['status']) && (
+          // the patient revokes
+          (resource.data.patientUid == request.auth.uid && request.resource.data.status == 'revoked')
+          // the invited clinician accepts, in the same batch that creates the share
+          || (isClinician() && verifiedEmail()
+              && resource.data.clinicianEmail == myEmail()
+              && resource.data.status == 'pending'
+              && request.resource.data.status == 'accepted'
+              && existsAfter(/databases/$(database)/documents/shares/$(resource.data.patientUid + '_' + request.auth.uid)))
+        );
+      allow delete: if signedIn() && resource.data.patientUid == request.auth.uid;
+    }
+
+    // An active share grants the clinician read access to the patient's records.
+    match /shares/{shareId} {
+      function invite() {
+        return get(/databases/$(database)/documents/invites/$(request.resource.data.inviteId));
+      }
+      allow read: if signedIn()
+        && (resource.data.patientUid == request.auth.uid || resource.data.clinicianUid == request.auth.uid);
+      allow create: if isClinician() && verifiedEmail()
+        && request.resource.data.keys().hasOnly(['patientUid', 'clinicianUid', 'clinicianEmail', 'patientName', 'inviteId', 'createdAt'])
+        && request.resource.data.clinicianUid == request.auth.uid
+        && shareId == request.resource.data.patientUid + '_' + request.auth.uid
+        && request.resource.data.clinicianEmail == myEmail()
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.inviteId is string
+        && invite().data.patientUid == request.resource.data.patientUid
+        && invite().data.clinicianEmail == myEmail()
+        && invite().data.status == 'pending'
+        && invite().data.patientName == request.resource.data.patientName;
+      allow update: if false;
+      allow delete: if signedIn()
+        && (resource.data.patientUid == request.auth.uid || resource.data.clinicianUid == request.auth.uid);
+    }
+  }
+}

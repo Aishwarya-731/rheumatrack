@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.emulator-data/
+*.log
+.env
+.env.local
+.env.*.local
+*service-account*.json
+.firebase/
+.DS_Store
+*.tsbuildinfo
+dist-harness/
+.vercel/

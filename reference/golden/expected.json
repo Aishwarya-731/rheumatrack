@@ -1,0 +1,74 @@
+{
+  "golden_ankle_left_plantarflexion.csv": {
+    "sampleCount": 400,
+    "minDeg": -40.0,
+    "maxDeg": 40.521,
+    "romDeg": 80.521,
+    "meanDeg": 0.29925000000000046,
+    "durationMs": 8040,
+    "interval": {
+      "min": 20.0,
+      "max": 26.0,
+      "mean": 20.150375939849624,
+      "median": 20.0,
+      "sd": 0.9378926995195579,
+      "rateHz": 50.0
+    },
+    "irregularIntervals": 10,
+    "repetitions": 4
+  },
+  "golden_elbow_right_small_rom.csv": {
+    "sampleCount": 50,
+    "minDeg": 28.500015,
+    "maxDeg": 31.493112,
+    "romDeg": 2.993096999999999,
+    "meanDeg": 30.152674500000003,
+    "durationMs": 4900,
+    "interval": {
+      "min": 100.0,
+      "max": 100.0,
+      "mean": 100.0,
+      "median": 100.0,
+      "sd": 0.0,
+      "rateHz": 10.0
+    },
+    "irregularIntervals": 0,
+    "repetitions": null
+  },
+  "golden_knee_right_flexion.csv": {
+    "sampleCount": 1001,
+    "minDeg": 1.3,
+    "maxDeg": 118.12,
+    "romDeg": 116.82000000000001,
+    "meanDeg": 59.82454545454542,
+    "durationMs": 20000,
+    "interval": {
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0,
+      "median": 20.0,
+      "sd": 0.0,
+      "rateHz": 50.0
+    },
+    "irregularIntervals": 0,
+    "repetitions": 5
+  },
+  "golden_shoulder_left_abduction.csv": {
+    "sampleCount": 1501,
+    "minDeg": 8.56,
+    "maxDeg": 151.31,
+    "romDeg": 142.75,
+    "meanDeg": 79.95459027315118,
+    "durationMs": 15000,
+    "interval": {
+      "min": 10.0,
+      "max": 10.0,
+      "mean": 10.0,
+      "median": 10.0,
+      "sd": 0.0,
+      "rateHz": 100.0
+    },
+    "irregularIntervals": 0,
+    "repetitions": 3
+  }
+}
